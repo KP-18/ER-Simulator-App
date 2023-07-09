@@ -1,0 +1,129 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .relationships {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+  
+  .single-relation {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 10px 20px;
+    padding: 20px;
+    background-color: #fff;
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .attributes {
+    margin-top: 20px;
+    flex-grow: 1;
+  }
+  
+  .single-attribute {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    flex-basis: 100%;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .checkbox-label {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .add-entity-btn {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .add-entity-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .submitButton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .submitButton button {
+    margin-right: 10px;
+  }
+  
+  select{
+  margin-top: 10px;
+  }
+  @media (max-width: 768px) {
+    .single-relation {
+      width: 100%;
+      max-width: 600px;
+    }
+  }
